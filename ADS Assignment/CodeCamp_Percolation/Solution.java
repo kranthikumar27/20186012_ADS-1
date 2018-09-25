@@ -1,5 +1,8 @@
 // You can implement the above API to solve the problem
 import java.util.Scanner;
+/**
+ * Class for percolation.
+ */
 class Percolation {
     /**
      * {Declaring an object of weighted quick union}.
@@ -59,7 +62,12 @@ class Percolation {
             uf.union(row, col);
         }
     }
-
+/**
+ * { function_description }
+ *
+ * @param      row   The row
+ * @param      col   The col
+ */
     public void open(final int row, final int col) {
         int index = indexOf(row, col);
         connected[index] = true;
