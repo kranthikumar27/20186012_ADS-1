@@ -62,7 +62,7 @@ class Percolation {
             uf.union(row, col);
         }
     }
-/**
+/**.
  * { function_description }
  *
  * @param      row   The row
