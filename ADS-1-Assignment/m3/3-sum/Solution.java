@@ -9,11 +9,11 @@ class Solution {
 		}
 		Arrays.sort(threesum);
 		int count = 0;
-		for (int i = 0;i<array - 2;i++) {
-			int j = i+1;
-			int k = array-1;
-			while (j<k) {
-				if (threesum[i]+threesum[j]+threesum[k] == 0) {
+		for (int i = 0; i < array - 2; i++) {
+			int j = i + 1;
+			int k = array - 1;
+			while (j < k) {
+				if (threesum[i] + threesum[j] + threesum[k] == 0) {
 					count++;
 					j++;
 					k--;
