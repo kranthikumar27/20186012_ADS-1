@@ -3,11 +3,24 @@ import java.util.Arrays;
 /**
  * Class for solution.
  */
-public class Solution {
-  public static int[] intArray(String s) {
+public final class Solution {
+	/**
+	 * Constructs the object.
+	 */
+	private Solution() {
+
+	}
+  /**
+   * returns the array for a string.
+   *
+   * @param      s     { arguments }
+   *
+   * @return     { returns array from the string }
+   */
+  public static int[] intArray(final String s) {
   	String[] tokens = s.split(",");
   	int[] array = new int[tokens.length];
-  	for(int i = 0;i < array.length;i++){
+  	for (int i = 0; i < array.length; i++) {
   		array[i] = Integer.parseInt(tokens[i]);
   	} 
     return array;
