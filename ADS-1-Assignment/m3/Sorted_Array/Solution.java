@@ -4,12 +4,12 @@ import java.util.Arrays;
  * Class for solution.
  */
 public final class Solution {
-	/**
-	 * Constructs the object.
-	 */
-	private Solution() {
+    /**
+     * Constructs the object.
+     */
+    private Solution() {
 
-	}
+    }
   /**
    * returns the array for a string.
    *
@@ -18,11 +18,11 @@ public final class Solution {
    * @return     { returns array from the string }
    */
   public static int[] intArray(final String s) {
-  	String[] tokens = s.split(",");
-  	int[] array = new int[tokens.length];
-  	for (int i = 0; i < array.length; i++) {
-  		array[i] = Integer.parseInt(tokens[i]);
-  	} 
+    String[] tokens = s.split(",");
+    int[] array = new int[tokens.length];
+    for (int i = 0; i < array.length; i++) {
+        array[i] = Integer.parseInt(tokens[i]);
+    }
     return array;
   }
   /**
