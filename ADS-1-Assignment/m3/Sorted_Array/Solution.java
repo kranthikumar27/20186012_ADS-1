@@ -49,6 +49,6 @@ public class Solution {
       }
     }
     System.out.println(Arrays.toString(resultArray).replace("[", "")
-                       .replace("]", " ").replace(" ", " "));
+                       .replace("]", "").replace(" ", ""));
   }
 }
