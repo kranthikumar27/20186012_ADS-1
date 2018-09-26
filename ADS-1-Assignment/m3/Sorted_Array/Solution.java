@@ -45,7 +45,7 @@ public class Solution {
     }
     if (secondArray.length > firstArray.length) {
       while (k < firstArray.length + secondArray.length) {
-        resultArray[k++] = secondArray[j--];
+        resultArray[k++] = secondArray[j++];
       }
     }
     System.out.println(Arrays.toString(resultArray).replace("[", "")
