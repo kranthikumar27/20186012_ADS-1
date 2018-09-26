@@ -1,7 +1,5 @@
-/**
- * { item_description }
- */
-import java.util.*;
+import java.util.Scanner;
+import java.util.Arrays;
 /**
  * Class for solution.
  */
@@ -12,12 +10,12 @@ public final class Solution {
 	private Solution() {
 
 	}
-	/**
+	/**.
 	 * { main function }
 	 *
 	 * @param      args  The arguments
 	 */
-	public static void main(String[] args) {
+	public static void main(final String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int array = scan.nextInt();
 		int[] threesum = new int[array];
@@ -30,13 +28,13 @@ public final class Solution {
 			int j = i + 1;
 			int k = array - 1;
 			while (j < k) {
-				if (threesum[i] + threesum[j] 
-					+ threesum[k] == 0) {
+				if (threesum[i] + threesum[j]
+					 + threesum[k] == 0) {
 					count++;
 					j++;
 					k--;
-				} else if (threesum[i] + threesum[j] 
-					+ threesum[k] < 0) {
+				} else if (threesum[i] + threesum[j]
+					 + threesum[k] < 0) {
 					j++;
 				} else {
 					k--;
