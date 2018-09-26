@@ -1,5 +1,22 @@
+/**
+ * { item_description }
+ */
 import java.util.*;
-class Solution {
+/**
+ * Class for solution.
+ */
+public final class Solution {
+	/**
+	 * Constructs the object.
+	 */
+	private Solution() {
+
+	}
+	/**
+	 * { main function }
+	 *
+	 * @param      args  The arguments
+	 */
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int array = scan.nextInt();
@@ -19,7 +36,7 @@ class Solution {
 					j++;
 					k--;
 				} else if (threesum[i] + threesum[j] 
-					+ threesum[k] < 0){
+					+ threesum[k] < 0) {
 					j++;
 				} else {
 					k--;
