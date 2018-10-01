@@ -88,6 +88,7 @@ class Steque {
 			return;
 		}
 		head = head.address;
+		size--;
 	}
 	public void push(int item) {
 		if (size == 0) {
