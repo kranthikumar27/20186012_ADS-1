@@ -22,9 +22,11 @@ public final class Solution {
 					break;
 				case "pop":
 					obj.pop();
+					obj.print();
 					break;
 				case "enqueue":
 					obj.enqueue(Integer.parseInt(tokens[1]));
+					obj.print();
 					break;
 				default:
 					break;
