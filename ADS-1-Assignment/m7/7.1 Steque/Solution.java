@@ -112,7 +112,7 @@ class Steque {
 			return;
 		}
 		while (obj.getAddress() != null) {
-			System.out.print(obj.data + " ,");
+			System.out.print(obj.data + ", ");
 			obj = obj.getAddress();
 		} System.out.print(obj.data);
 		System.out.println();
