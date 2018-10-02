@@ -221,8 +221,8 @@ public final class Solution {
         while (scan.hasNext()) {
             String[] tokens = scan.nextLine().split(",");
             select.add(new CricketTour(tokens[0], Integer.parseInt(tokens[1]),
-                                       Integer.parseInt(tokens[2]), 
-                                       Integer.parseInt(tokens[three])));
+                                       Integer.parseInt(tokens[2]),
+                                        Integer.parseInt(tokens[three])));
         }
         select.sort();
         select.show();
