@@ -26,7 +26,14 @@ class CricketTour implements Comparable<CricketTour> {
     CricketTour() {
         //default constructor is not used.
     }
-
+    /**
+     * Constructs the object. Time complexity of CricketTour constructor is 1.
+     *
+     * @param      teamname1  The teamname
+     * @param      wins1      The wins
+     * @param      losses1    The losses
+     * @param      draws1     The draws
+     */
     CricketTour(final String teamname1, final int wins1,
                 final int losses1, final int draws1) {
         this.teamName = teamname1;
@@ -34,23 +41,50 @@ class CricketTour implements Comparable<CricketTour> {
         this.losses = losses1;
         this.draws = draws1;
     }
-
+    /**
+     * Gets the team name.
+     * Time complexity of getTeamName method is 1.
+     *
+     * @return     The team name.
+     */
     public String getTeamName() {
         return this.teamName;
     }
-
+    /**
+     * Gets the wins.
+     * Time complexity of getWins method is 1.
+     *
+     * @return     The wins.
+     */
     public int getWins() {
         return this.wins;
     }
-
+    /**
+     * Gets the losses.
+     * Time complexity of getLosses method is 1.
+     *
+     * @return     The losses.
+     */
     public int getLosses() {
         return this.losses;
     }
-
+    /**
+     * Gets the draws.
+     * Time complexity of getDraws method is 1.
+     *
+     * @return     The draws.
+     */
     public int getDraws() {
         return this.draws;
     }
-
+    /**
+     * CompareTo method is comparing the two items based on their order.
+     * Time complexity of compareTo method is 1.
+     *
+     * @param      that  The that
+     *
+     * @return     return 1 if the condition is true otherwise -1.
+     */
     public int compareTo(final CricketTour that) {
         if (this.getWins() < that.getWins()) {
             return 1;
@@ -81,14 +115,26 @@ class SelectionSort {
      * Array of team names.
      */
     private CricketTour[] teamnames;
-
+    /**
+     * integer variable.
+     */
     private int size;
-
+    /**
+     * integer variable.
+     */
+    private final int ten = 10;
+    /**
+     * Constructs the object.
+     * Time complexity of Selection sort constructor is 1.
+     */
     SelectionSort() {
-        this.teamnames = new CricketTour[10];
+        this.teamnames = new CricketTour[ten];
         this.size = 0;
     }
-
+    /**
+     * sort method is used to sort the data based on teamnames and its values.
+     * Time complexity for sort method is N^2.
+     */
     public void sort() {
         for (int i = 0; i < size; i++) {
             for (int j = i; j > 0; j--) {
@@ -100,20 +146,35 @@ class SelectionSort {
             }
         }
     }
-
+    /**
+     * exchange method is used to swap the elements in an array.
+     * Time complexity for exchange method is 1.
+     *
+     * @param      ct    The carriage return
+     * @param      i     { parameter_description }
+     * @param      j     { parameter_description }
+     */
     public void exch(final CricketTour[] ct, final int i, final int j) {
         CricketTour swap = ct[i];
         ct[i] = ct[j];
         ct[j] = swap;
     }
-
+    /**
+     * add method is used to add the teams.
+     * Time complexity of add method is 1.
+     *
+     * @param      teams  The teams
+     */
     public void add(final CricketTour teams) {
         if (size == teamnames.length) {
             resize();
         }
         teamnames[size++] = teams;
     }
-
+    /**
+     * show is to display the output by using Selection sort algorithm.
+     * Time complexity of the show method is N.
+     */
     public void show() {
         int i = 0;
         for (i = 0; i < size - 1; i++) {
@@ -121,16 +182,26 @@ class SelectionSort {
         }
         System.out.println(teamnames[i].getTeamName());
     }
-
+    /**
+     * Gets the size.
+     * Time complexity of getSize methd is 1.
+     *
+     * @return     The size.
+     */
     public int getSize() {
         return this.size;
     }
-
+    /**
+     * resize method is used to double the size for extending size value.
+     * Time complexity of resize method is 1.
+     */
     public void resize() {
         teamnames = Arrays.copyOf(teamnames, 2 * teamnames.length);
     }
 }
-
+/**
+ * client class
+ */
 public final class Solution {
     /**
      * Constructs the object.
