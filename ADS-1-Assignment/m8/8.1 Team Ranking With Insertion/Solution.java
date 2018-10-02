@@ -116,7 +116,7 @@ class SelectionSort {
     
     public void show() {
         int i = 0;
-        for (i = 0; i < size; i++) {
+        for (i = 0; i < size - 1; i++) {
             System.out.print(teamnames[i].getTeamName());
         }
         System.out.println(teamnames[i].getTeamName());
