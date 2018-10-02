@@ -199,7 +199,7 @@ class SelectionSort {
         teamnames = Arrays.copyOf(teamnames, 2 * teamnames.length);
     }
 }
-/**
+/**.
  * client class
  */
 public final class Solution {
@@ -217,11 +217,12 @@ public final class Solution {
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         SelectionSort select = new SelectionSort();
-
+        final int three = 3;
         while (scan.hasNext()) {
             String[] tokens = scan.nextLine().split(",");
             select.add(new CricketTour(tokens[0], Integer.parseInt(tokens[1]),
-                                       Integer.parseInt(tokens[2]), Integer.parseInt(tokens[3])));
+                                       Integer.parseInt(tokens[2]), 
+                                       Integer.parseInt(tokens[three])));
         }
         select.sort();
         select.show();
