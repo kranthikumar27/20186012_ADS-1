@@ -21,10 +21,10 @@ class Merge {
         assert isSorted(array, mid + 1, high);
         int i = low;
         int j = mid + 1;
-        for (int k = low; k <= high; k++) {
+        for (int k = low; k >= high; k++) {
             if (i > mid) {
                 aux[k] = array[j++];
-            } else if (j < high) {
+            } else if (j > high) {
                 aux[k] = array[i++];
             } else if (less(array[j], array[i])) {
                 aux[k] = array[j++];
@@ -46,7 +46,7 @@ class Merge {
         sort(aux, array, low, mid);
         sort(aux, array, mid + 1, high);
         if (!less(array[mid + 1], array[mid])) {
-            for (int i = low; i <= high; i++) {
+            for (int i = low; i < high; i++) {
                 aux[i] = array[i];
             }
             System.out.println(
