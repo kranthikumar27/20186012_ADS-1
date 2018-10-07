@@ -175,7 +175,6 @@ class LinkedList {
     /**
      * {Method to print the values}.
      * Time complexity of this method is O(N).
-     * @return     {String}.
      */
     public void print() {
         Node obj = head;
