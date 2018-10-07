@@ -1,4 +1,2 @@
 Starting audit...
-[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m9\9.1 Merge Sort Improvements\Solution.java:176:5: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 1 errors.

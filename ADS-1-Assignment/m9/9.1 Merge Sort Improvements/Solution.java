@@ -172,7 +172,10 @@ class Merge {
  * Class for solution.
  */
 public final class Solution {
-
+    /**
+     * Constructs the object.
+     * Time complexity of this method is O(1).
+     */
     private Solution() {
         //Unused Constructor.
     }
