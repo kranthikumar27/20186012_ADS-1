@@ -1,4 +1,6 @@
 Starting audit...
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m10\10.1 LinkedList using Recursion\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m10\10.1 LinkedList using Recursion\Solution.java:11: Line has trailing spaces. [RegexpSingleline]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m10\10.1 LinkedList using Recursion\Solution.java:178: Unused Javadoc tag. [JavadocMethod]
 Audit done.
-Checkstyle ends with 1 errors.
+Checkstyle ends with 3 errors.
