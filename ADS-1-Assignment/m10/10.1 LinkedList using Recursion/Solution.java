@@ -8,7 +8,7 @@ final class Solution {
      * Time complexity of this method is O(1).
      */
     private Solution() {
-        // unused constructor. 
+        // unused constructor.
     }
     /**.
      * main method is used to take the input and perform
@@ -175,7 +175,7 @@ class LinkedList {
     /**
      * {Method to print the values}.
      * Time complexity of this method is O(N).
-     * @return     {String}
+     * @return     {String}.
      */
     public void print() {
         Node obj = head;
