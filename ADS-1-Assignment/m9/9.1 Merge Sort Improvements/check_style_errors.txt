@@ -1,0 +1,23 @@
+Starting audit...
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m9\9.1 Merge Sort Improvements\Solution.java:17: Line has trailing spaces. [RegexpSingleline]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m9\9.1 Merge Sort Improvements\Solution.java:18:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m9\9.1 Merge Sort Improvements\Solution.java:37: Line has trailing spaces. [RegexpSingleline]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m9\9.1 Merge Sort Improvements\Solution.java:38:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m9\9.1 Merge Sort Improvements\Solution.java:59: Line has trailing spaces. [RegexpSingleline]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m9\9.1 Merge Sort Improvements\Solution.java:60:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m9\9.1 Merge Sort Improvements\Solution.java:65: Line has trailing spaces. [RegexpSingleline]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m9\9.1 Merge Sort Improvements\Solution.java:66:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m9\9.1 Merge Sort Improvements\Solution.java:75: Line has trailing spaces. [RegexpSingleline]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m9\9.1 Merge Sort Improvements\Solution.java:76:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m9\9.1 Merge Sort Improvements\Solution.java:82: Line has trailing spaces. [RegexpSingleline]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m9\9.1 Merge Sort Improvements\Solution.java:83:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m9\9.1 Merge Sort Improvements\Solution.java:86: Line has trailing spaces. [RegexpSingleline]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m9\9.1 Merge Sort Improvements\Solution.java:87:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m9\9.1 Merge Sort Improvements\Solution.java:90: Line has trailing spaces. [RegexpSingleline]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m9\9.1 Merge Sort Improvements\Solution.java:91:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m9\9.1 Merge Sort Improvements\Solution.java:101: Line has trailing spaces. [RegexpSingleline]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m9\9.1 Merge Sort Improvements\Solution.java:102:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m9\9.1 Merge Sort Improvements\Solution.java:116: Line has trailing spaces. [RegexpSingleline]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m9\9.1 Merge Sort Improvements\Solution.java:117:5: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+Checkstyle ends with 20 errors.
