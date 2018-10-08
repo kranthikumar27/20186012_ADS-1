@@ -23,7 +23,7 @@ class PriorityQueue<E extends Comparable<E>> {
      * @return     True if minimum heap, False otherwise.
      */
     public boolean isminHeap() {
-        for (int i = 0; i < arr.length - 1; i++ ) {
+        for (int i = 0; i < arr.length - 1; i++) {
             if (less(i + 1, i)) {
                 return false;
             }

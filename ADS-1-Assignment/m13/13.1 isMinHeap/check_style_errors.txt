@@ -1,4 +1,2 @@
 Starting audit...
-[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m13\13.1 isMinHeap\Solution.java:26:48: ')' is preceded with whitespace. [ParenPad]
 Audit done.
-Checkstyle ends with 1 errors.
