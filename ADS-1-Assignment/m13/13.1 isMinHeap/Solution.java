@@ -65,11 +65,11 @@ public class Solution {
 			count = 0;
 			while (count < numoftestcases) {
 				String[] input = scan.nextLine().split(",");
+				Float[] floatArray = new Float[input.length];
 				if (input.equals("")) {
 					System.out.println("false");
 					break;
 				} else {
-				Float[] floatArray = new Float[input.length];
 				for (int i = 0; i < input.length; i++) {
 					floatArray[i] = Float.parseFloat(input[i]);
 				}
