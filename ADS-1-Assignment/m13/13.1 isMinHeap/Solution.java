@@ -38,7 +38,7 @@ class PriorityQueue<E extends Comparable<E>> {
 	 *
 	 * @return     true if first one is less than the other, else false.
 	 */
-	public boolean less(final int first,final int second) {
+	public boolean less(final int first, final int second) {
 		return arr[first].compareTo(arr[second]) < 0;
 	}
 }
@@ -92,7 +92,8 @@ public final class Solution {
 				for (int i = 0; i < input.length; i++) {
 					doubleArray[i] = Double.parseDouble(input[i]);
 				}
-				PriorityQueue<Double> obj = new PriorityQueue<Double>(doubleArray);
+				PriorityQueue<Double> obj =
+				 new PriorityQueue<Double>(doubleArray);
 				System.out.println(obj.isminHeap());
 				count++;
 			}
@@ -108,13 +109,18 @@ public final class Solution {
 					String[] floatToken = input.split(",");
 					Float[] floatArray = new Float[floatToken.length];
 					for (int i = 0; i < floatToken.length; i++) {
-						floatArray[i] = Float.parseFloat(floatToken[i]);
+						floatArray[i] =
+						 Float.parseFloat(floatToken[i]);
 					}
-					PriorityQueue<Float> obj = new PriorityQueue<Float>(floatArray);
+					PriorityQueue<Float> obj =
+					 new PriorityQueue<Float>(floatArray);
 					System.out.println(obj.isminHeap());
 				}
 				count++;
 			}
+			break;
+		default:
+			break;
 		}
 	}
 }

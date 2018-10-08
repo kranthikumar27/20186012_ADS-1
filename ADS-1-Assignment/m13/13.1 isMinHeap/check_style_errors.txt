@@ -1,16 +1,12 @@
 Starting audit...
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m13\13.1 isMinHeap\Solution.java:8:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m13\13.1 isMinHeap\Solution.java:26:56: ')' is preceded with whitespace. [ParenPad]
-[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m13\13.1 isMinHeap\Solution.java:41:45: ',' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m13\13.1 isMinHeap\Solution.java:64: switch without "default" clause. [MissingSwitchDefault]
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m13\13.1 isMinHeap\Solution.java:69: Line is longer than 80 characters (found 93). [LineLength]
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m13\13.1 isMinHeap\Solution.java:80: Line is longer than 80 characters (found 81). [LineLength]
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m13\13.1 isMinHeap\Solution.java:82: Line is longer than 80 characters (found 98). [LineLength]
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m13\13.1 isMinHeap\Solution.java:93: Line is longer than 80 characters (found 86). [LineLength]
-[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m13\13.1 isMinHeap\Solution.java:95: Line is longer than 80 characters (found 99). [LineLength]
-[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m13\13.1 isMinHeap\Solution.java:109: Line is longer than 80 characters (found 90). [LineLength]
-[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m13\13.1 isMinHeap\Solution.java:110: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m13\13.1 isMinHeap\Solution.java:111: Line is longer than 80 characters (found 96). [LineLength]
-[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m13\13.1 isMinHeap\Solution.java:113: Line is longer than 80 characters (found 104). [LineLength]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m13\13.1 isMinHeap\Solution.java:110: Line is longer than 80 characters (found 90). [LineLength]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m13\13.1 isMinHeap\Solution.java:111: Line is longer than 80 characters (found 85). [LineLength]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m13\13.1 isMinHeap\Solution.java:113: Line is longer than 80 characters (found 81). [LineLength]
 Audit done.
-Checkstyle ends with 13 errors.
+Checkstyle ends with 9 errors.
