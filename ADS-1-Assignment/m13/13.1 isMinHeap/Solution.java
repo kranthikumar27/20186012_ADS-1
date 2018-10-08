@@ -1,9 +1,27 @@
 import java.util.Scanner;
+/**
+ * List of minimum priorities.
+ *
+ * @param      <E>
+ */
 class PriorityQueue<E extends Comparable<E>> {
+	/**
+	 * Generic array.
+	 */
 	private E[] arr;
-	PriorityQueue(E[] array) {
+	/**
+	 * Constructs the object.
+	 *
+	 * @param      array   The arr.
+	 */
+	PriorityQueue(final E[] array) {
 		this.arr = array;
 	}
+	/**
+	 * Determines if minimum heap.
+	 *
+	 * @return     True if minimum heap, False otherwise.
+	 */
 	public boolean isminHeap() {
 		for (int i = 0; i < arr.length - 1; i++ ) {
 			if (less(i + 1, i)) {
@@ -12,16 +30,34 @@ class PriorityQueue<E extends Comparable<E>> {
 		}
 		return true;
 	}
-
-	public boolean less(int first, int second) {
+	/**
+	 * less function.
+	 *
+	 * @param      first  The first
+	 * @param      second   The second
+	 *
+	 * @return     true if first one is less than the other, else false.
+	 */
+	public boolean less(final int first,final int second) {
 		return arr[first].compareTo(arr[second]) < 0;
 	}
 }
-public class Solution {
+/**
+ * client class.
+ */
+public final class Solution {
+	/**
+	 * Constructs the object.
+	 */
 	private Solution() {
-
+		//unused constructor.
 	}
-	public static void main(String[] args) {
+	/**
+	 * main method.
+	 *
+	 * @param      args  The arguments.
+	 */
+	public static void main(final String[] args) {
 		Scanner scan = new Scanner(System.in);
 		String datatype = scan.nextLine();
 		int numoftestcases = Integer.parseInt(scan.nextLine());
