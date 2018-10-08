@@ -64,17 +64,19 @@ public class Solution {
 		case "Float":
 			count = 0;
 			while (count < numoftestcases) {
-				String[] input = scan.nextLine().split(",");
-				if (input.length == 0) {
+				String input = scan.nextLine();
+				if (input.equals("")) {
 					System.out.println(false);
 					break;
+				} else {
+					String[] floatToken = input.split(",");
+					Float[] floatArray = new Float[floatToken.length];
+					for (int i = 0; i < floatToken.length; i++) {
+						floatArray[i] = Float.parseFloat(floatToken[i]);
+					}
+					PriorityQueue<Float> obj = new PriorityQueue<Float>(floatArray);
+					System.out.println(obj.isminHeap());
 				}
-				Float[] floatArray = new Float[input.length];
-				for (int i = 0; i < input.length; i++) {
-					floatArray[i] = Float.parseFloat(input[i]);
-				}
-				PriorityQueue<Float> obj = new PriorityQueue<Float>(floatArray);
-				System.out.println(obj.isminHeap());
 				count++;
 			}
 		}
