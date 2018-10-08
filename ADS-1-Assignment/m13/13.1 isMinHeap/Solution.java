@@ -65,7 +65,7 @@ public class Solution {
 			count = 0;
 			while (count < numoftestcases) {
 				String[] input = scan.nextLine().split(",");
-				if (input.equals("")) {
+				if (input.length == 0) {
 					System.out.println(false);
 					break;
 				}
