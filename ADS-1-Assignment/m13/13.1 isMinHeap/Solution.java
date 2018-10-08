@@ -5,8 +5,8 @@ class PriorityQueue<E extends Comparable<E>> {
 		this.arr = array;
 	}
 	public boolean isminHeap() {
-		for (int i = 0;i<arr.length ;i++ ) {
-			if (less(i+1, i)) {
+		for (int i = 0; i < arr.length - 1; i++ ) {
+			if (less(i + 1, i)) {
 				return false;
 			}
 		}
@@ -66,7 +66,7 @@ public class Solution {
 			while (count < numoftestcases) {
 				String[] input = scan.nextLine().split(",");
 				Float[] floatArray = new Float[input.length];
-				for (int i = 0;i < input.length;i++) {
+				for (int i = 0; i < input.length; i++) {
 					floatArray[i] = Float.parseFloat(input[i]);
 				}
 				PriorityQueue<Float> obj = new PriorityQueue<Float>(floatArray);
