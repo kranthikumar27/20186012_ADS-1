@@ -1,0 +1,66 @@
+########## Testcase 0: Failed ##########
+Expected Output: 
+true
+false
+true
+false
+Your Output: 
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 8
+	at PriorityQueue.less(Solution.java:17)
+	at PriorityQueue.isminHeap(Solution.java:9)
+	at Solution.main(Solution.java:34)
+----------------------------------------
+########## Testcase 1: Passed ##########
+Expected Output: 
+false
+false
+false
+false
+false
+false
+Your Output: 
+false
+false
+false
+false
+false
+false
+----------------------------------------
+########## Testcase 2: Failed ##########
+Expected Output: 
+true
+true
+true
+false
+false
+false
+true
+false
+Your Output: 
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 9
+	at PriorityQueue.less(Solution.java:17)
+	at PriorityQueue.isminHeap(Solution.java:9)
+	at Solution.main(Solution.java:47)
+----------------------------------------
+########## Testcase 3: Failed ##########
+Expected Output: 
+true
+false
+false
+Your Output: 
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 324
+	at PriorityQueue.less(Solution.java:17)
+	at PriorityQueue.isminHeap(Solution.java:9)
+	at Solution.main(Solution.java:60)
+----------------------------------------
+########## Testcase 4: Failed ##########
+Expected Output: 
+true
+true
+false
+Your Output: 
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 2
+	at PriorityQueue.less(Solution.java:17)
+	at PriorityQueue.isminHeap(Solution.java:9)
+	at Solution.main(Solution.java:73)
+----------------------------------------
