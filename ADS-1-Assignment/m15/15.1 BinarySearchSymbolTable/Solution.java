@@ -26,8 +26,8 @@ class BinarySearchST<Keys extends Comparable<Keys>, Values> {
         size = 0;
     }
     private void resize() {
-        keys = Arrays.copyOf(keys, size);
-        values = Arrays.copyOf(values, size);
+        keys = Arrays.copyOf(keys, size++);
+        values = Arrays.copyOf(values, size++);
     }
 
     public void put(final Keys key, final Values value) {

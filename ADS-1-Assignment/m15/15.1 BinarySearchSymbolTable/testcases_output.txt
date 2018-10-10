@@ -1,4 +1,4 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 X
 R
@@ -15,20 +15,9 @@ S 0
 X 7
 null
 Your Output: 
-X
-R
-1
-true
-C 4
-E 12
-H 5
-L 11
-M 9
-P 10
-R 3
-S 0
-X 7
-null
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 11
+	at BinarySearchST.max(Solution.java:121)
+	at Solution.main(Solution.java:176)
 ----------------------------------------
 ########## Testcase 1: Passed ##########
 Expected Output: 
@@ -64,7 +53,7 @@ O
 false
 null
 ----------------------------------------
-########## Testcase 2: Passed ##########
+########## Testcase 2: Failed ##########
 Expected Output: 
 X
 E 10
@@ -87,26 +76,9 @@ true
 5
 T
 Your Output: 
-X
-E 10
-L 9
-M 7
-O 1
-P 8
-R 2
-S 0
-T 3
-X 5
-0
-0
-0
-0
-0
-9
-9
-true
-5
-T
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 11
+	at BinarySearchST.max(Solution.java:121)
+	at Solution.main(Solution.java:176)
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -130,7 +102,8 @@ true
 P
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 10
-	at BinarySearchST.put(Solution.java:49)
+	at BinarySearchST.rank(Solution.java:62)
+	at BinarySearchST.put(Solution.java:43)
 	at Solution.main(Solution.java:164)
 ----------------------------------------
 ########## Testcase 4: Passed ##########
