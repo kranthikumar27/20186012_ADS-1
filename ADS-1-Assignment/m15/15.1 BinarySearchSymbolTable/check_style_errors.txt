@@ -1,9 +1,2 @@
 Starting audit...
-[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m15\15.1 BinarySearchSymbolTable\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m15\15.1 BinarySearchSymbolTable\Solution.java:3: Missing a Javadoc comment. [JavadocType]
-[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m15\15.1 BinarySearchSymbolTable\Solution.java:4:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m15\15.1 BinarySearchSymbolTable\Solution.java:247: Class Solution should be declared as final. [FinalClass]
-[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m15\15.1 BinarySearchSymbolTable\Solution.java:260:33: Parameter args should be final. [FinalParameters]
-[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m15\15.1 BinarySearchSymbolTable\Solution.java:264:50: ';' is preceded with whitespace. [NoWhitespaceBefore]
 Audit done.
-Checkstyle ends with 6 errors.
