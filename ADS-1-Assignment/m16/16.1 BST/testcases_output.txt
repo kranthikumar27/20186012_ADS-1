@@ -1,0 +1,34 @@
+########## Testcase 0: Failed ##########
+Expected Output: 
+1
+Your Output: 
+Exception in thread "main" java.lang.NumberFormatException: For input string: "6000.0"
+	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at Solution.main(Solution.java:91)
+----------------------------------------
+########## Testcase 1: Failed ##########
+Expected Output: 
+6
+5
+7
+2
+Your Output: 
+Exception in thread "main" java.lang.NumberFormatException: For input string: "600.0"
+	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at Solution.main(Solution.java:91)
+----------------------------------------
+########## Testcase 2: Failed ##########
+Expected Output: 
+null
+7
+Your Output: 
+Exception in thread "main" java.lang.NumberFormatException: For input string: "600.0"
+	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at Solution.main(Solution.java:91)
+----------------------------------------
