@@ -1,5 +1,4 @@
 Starting audit...
-[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m16\16.1 BST\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m16\16.1 BST\Solution.java:2: Missing a Javadoc comment. [JavadocType]
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m16\16.1 BST\Solution.java:3:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m16\16.1 BST\Solution.java:3:9: Missing a Javadoc comment. [JavadocVariable]
@@ -44,4 +43,4 @@ Starting audit...
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m16\16.1 BST\Solution.java:94: Line is longer than 80 characters (found 100). [LineLength]
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m16\16.1 BST\Solution.java:94:96: '3' is a magic number. [MagicNumber]
 Audit done.
-Checkstyle ends with 44 errors.
+Checkstyle ends with 43 errors.
