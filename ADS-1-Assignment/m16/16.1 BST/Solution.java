@@ -7,7 +7,7 @@ class Node {
 		this.key = key1;
 		this.value = value1;
 		left = null;
-		right = null; 
+		right = null;
 	}
 }
 
@@ -54,13 +54,13 @@ class BinarySearchTree {
 }
 
 class Book implements Comparable {
-	
+
 	private String name;
-	
+
 	private String author;
-	
+
 	private double price;
-	
+
 	Book(final String name1, final String author1, final double amount1) {
 		this.name = name1;
 		this.author = author1;
@@ -89,6 +89,7 @@ class Solution {
 				Book obj = new Book(tokens[1], tokens[2],
 				                    Double.parseDouble(tokens[3]));
 				bstobj.put(obj, Integer.parseInt(tokens[4]));
+				break;
 			case "get":
 				obj = new Book(tokens[1], tokens[2], Double.parseDouble(tokens[3]));
 				if (bstobj.get(obj) == -1) {
@@ -97,7 +98,7 @@ class Solution {
 					System.out.println(bstobj.get(obj));
 				}
 				break;
-				default:
+			default:
 				break;
 			}
 		}
