@@ -88,7 +88,7 @@ class Solution {
 			case "put":
 				Book obj = new Book(tokens[1], tokens[2],
 				                    Double.parseDouble(tokens[3]));
-				bstobj.put(obj, Integer.parseInt(tokens[3]));
+				bstobj.put(obj, Integer.parseInt(tokens[4]));
 			case "get":
 				obj = new Book(tokens[1], tokens[2], Double.parseDouble(tokens[3]));
 				if (bstobj.get(obj) == -1) {

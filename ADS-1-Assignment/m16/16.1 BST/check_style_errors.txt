@@ -45,7 +45,7 @@ Starting audit...
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m16\16.1 BST\Solution.java:82:33: Parameter args should be final. [FinalParameters]
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m16\16.1 BST\Solution.java:90: Line is longer than 80 characters (found 83). [LineLength]
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m16\16.1 BST\Solution.java:90:79: '3' is a magic number. [MagicNumber]
-[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m16\16.1 BST\Solution.java:91:73: '3' is a magic number. [MagicNumber]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m16\16.1 BST\Solution.java:91:73: '4' is a magic number. [MagicNumber]
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m16\16.1 BST\Solution.java:93: Line is longer than 80 characters (found 100). [LineLength]
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m16\16.1 BST\Solution.java:93:96: '3' is a magic number. [MagicNumber]
 Audit done.
