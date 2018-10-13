@@ -181,11 +181,11 @@ public class Solution {
 			maxobj6.insert(temp);
 			minobj6.insert(temp);
 		}
-		for (int j = 0;j<5 ;j++) {
+		for (int j = 1;j<5 ;j++) {
 			System.out.println(maxobj6.delMax());
 		}
 		System.out.println();
-		for (int i=0;i<5 ;i++) {
+		for (int i=1;i<5 ;i++) {
 			System.out.println(minobj6.delMin());
 		}
 		System.out.println();
