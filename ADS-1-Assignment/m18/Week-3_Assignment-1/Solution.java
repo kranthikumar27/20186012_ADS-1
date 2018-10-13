@@ -66,7 +66,7 @@ public class Solution {
 		int inputs = Integer.parseInt(scan.nextLine());
 		MinPQ<StockExchange> minobj1 = new MinPQ<StockExchange>();
 		MaxPQ<StockExchange> maxobj1 = new MaxPQ<StockExchange>();
-		for (int i = 0; i < inputs; i++) {
+		for (int i = 0; i < inputs-1; i++) {
 			String[] tokens = scan.next().split(",");
 			StockExchange temp = new StockExchange(tokens[0],
 			                                       Double.parseDouble(tokens[1]));
