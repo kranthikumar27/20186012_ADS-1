@@ -75,11 +75,11 @@ public class Solution {
 			maxobj1.insert(temp);
 			minobj1.insert(temp);
 		}
-		for (int j = 0;j<6 ;j++ ) {
+		for (int j = 0;j<=5 ;j++ ) {
 			System.out.println(maxobj1.delMax());
 		}
 		System.out.println();
-		for (int i=0;i<6 ;i++ ) {
+		for (int i=0;i<=5 ;i++ ) {
 			System.out.println(minobj1.delMin());
 		}
 		System.out.println();
@@ -94,11 +94,11 @@ public class Solution {
 			maxobj2.insert(temp);
 			minobj2.insert(temp);
 		}
-		for (int j = 0;j<6 ;j++ ) {
+		for (int j = 0;j<=5 ;j++ ) {
 			System.out.println(maxobj2.delMax());
 		}
 		System.out.println();
-		for (int i=0;i<6 ;i++ ) {
+		for (int i=0;i<=5 ;i++ ) {
 			System.out.println(minobj2.delMin());
 		}
 		System.out.println();
@@ -124,11 +124,11 @@ public class Solution {
 			maxobj3.insert(temp);
 			minobj3.insert(temp);
 		}
-		for (int j = 0;j<6 ;j++ ) {
+		for (int j = 0;j<=5 ;j++ ) {
 			System.out.println(maxobj3.delMax());
 		}
 		System.out.println();
-		for (int i=0;i<6 ;i++ ) {
+		for (int i=0;i<=5 ;i++ ) {
 			System.out.println(minobj3.delMin());
 		}
 		System.out.println();
@@ -143,11 +143,11 @@ public class Solution {
 			maxobj4.insert(temp);
 			minobj4.insert(temp);
 		}
-		for (int j = 0;j<6 ;j++ ) {
+		for (int j = 0;j<=5 ;j++ ) {
 			System.out.println(maxobj4.delMax());
 		}
 		System.out.println();
-		for (int i=0;i<6 ;i++ ) {
+		for (int i=0;i<=5 ;i++ ) {
 			System.out.println(minobj4.delMin());
 		}
 		System.out.println();
@@ -162,11 +162,11 @@ public class Solution {
 			maxobj5.insert(temp);
 			minobj5.insert(temp);
 		}
-		for (int j = 0;j<6 ;j++ ) {
+		for (int j = 0;j<=5 ;j++ ) {
 			System.out.println(maxobj5.delMax());
 		}
 		System.out.println();
-		for (int i=0;i<6 ;i++ ) {
+		for (int i=0;i<=5 ;i++ ) {
 			System.out.println(minobj5.delMin());
 		}
 		System.out.println();
@@ -181,11 +181,11 @@ public class Solution {
 			maxobj6.insert(temp);
 			minobj6.insert(temp);
 		}
-		for (int j = 0;j<6 ;j++ ) {
+		for (int j = 0;j<=5 ;j++) {
 			System.out.println(maxobj6.delMax());
 		}
 		System.out.println();
-		for (int i=0;i<6 ;i++ ) {
+		for (int i=0;i<=5 ;i++) {
 			System.out.println(minobj6.delMin());
 		}
 		System.out.println();
