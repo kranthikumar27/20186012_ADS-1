@@ -72,6 +72,9 @@ class BookDetails implements Comparable {
         return getName() + ", " + getAuthor() + ", " + getPrice();
     }
 }
+/**
+ * Class for binary search tree.
+ */
 class BinarySearchTree {
     /**
      * variable declaration.
@@ -476,69 +479,70 @@ class BinarySearchTree {
  * Client Solution.
  */
 public final class Solution {
-	/**.
-	 * Constructs the object.
-	 */
-	private Solution() {
+    /**.
+     * Constructs the object.
+     */
+    private Solution() {
 
-	}
-	/**.
-	 * main method.
-	 *
-	 * @param      args  The arguments
-	 */
-	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
-		BinarySearchTree bstobj = new BinarySearchTree();
-		while (scan.hasNext()) {
-			String[] tokens = scan.nextLine().split(",");
-			switch (tokens[0]) {
-			case "put":
-				BookDetails bobj = new BookDetails(tokens[1], tokens[2],
-				                                   Float.parseFloat(tokens[3]));
-				bstobj.put(bobj, Integer.parseInt(tokens[4]));
-				break;
-			case "get":
-				bobj = new BookDetails(tokens[1], tokens[2],
-				                       Float.parseFloat(tokens[3]));
-				if (bstobj.get(bobj) == -1) {
-					System.out.println("null");
-				} else {
-					System.out.println(bstobj.get(bobj));
-				}
-				break;
-			case "max":
-				System.out.println(bstobj.max());
-				break;
-			case "min":
-				System.out.println(bstobj.min());
-				break;
-			case "select":
-				System.out.println(bstobj.select(Integer.parseInt(tokens[1])));
-				break;
-			case "floor":
-				bobj = new BookDetails(tokens[1],
-				                       tokens[2], Float.parseFloat(tokens[3]));
-				System.out.println(bstobj.floor(bobj));
-				break;
-			case "ceiling":
-				bobj = new BookDetails(tokens[1],
-				                        tokens[2], Float.parseFloat(tokens[3]));
-				System.out.println(bstobj.ceiling(bobj));
-				break;
-			case "deleteMax":
-				bstobj.deleteMax();
-				break;
-			case "deleteMin":
-				bstobj.deleteMin();
-				break;
-			case "delete":
-				bobj = new BookDetails(tokens[1],
-				                        tokens[2], Float.parseFloat(tokens[3]));
-				bstobj.delete(bobj);
-			default:
-				break;
-			}
-		}
-	}
+    }
+    /**.
+     * main method.
+     *
+     * @param      args  The arguments
+     */
+    public static void main(final String[] args) {
+        Scanner scan = new Scanner(System.in);
+        BinarySearchTree bstobj = new BinarySearchTree();
+        while (scan.hasNext()) {
+            String[] tokens = scan.nextLine().split(",");
+            switch (tokens[0]) {
+            case "put":
+                BookDetails bobj = new BookDetails(tokens[1],
+                 tokens[2],
+                 Float.parseFloat(tokens[2 + 1]));
+                bstobj.put(bobj, Integer.parseInt(tokens[2 + 2]));
+                break;
+            case "get":
+                bobj = new BookDetails(tokens[1], tokens[2],
+                 Float.parseFloat(tokens[2 + 1]));
+                if (bstobj.get(bobj) == -1) {
+                    System.out.println("null");
+                } else {
+                    System.out.println(bstobj.get(bobj));
+                }
+                break;
+            case "max":
+                System.out.println(bstobj.max());
+                break;
+            case "min":
+                System.out.println(bstobj.min());
+                break;
+            case "select":
+                System.out.println(bstobj.select(Integer.parseInt(tokens[1])));
+                break;
+            case "floor":
+                bobj = new BookDetails(tokens[1],
+                                       tokens[2], Float.parseFloat(tokens[2 + 1]));
+                System.out.println(bstobj.floor(bobj));
+                break;
+            case "ceiling":
+                bobj = new BookDetails(tokens[1],
+                                       tokens[2], Float.parseFloat(tokens[2 +1]));
+                System.out.println(bstobj.ceiling(bobj));
+                break;
+            case "deleteMax":
+                bstobj.deleteMax();
+                break;
+            case "deleteMin":
+                bstobj.deleteMin();
+                break;
+            case "delete":
+                bobj = new BookDetails(tokens[1],
+                                       tokens[2], Float.parseFloat(tokens[2 + 1]));
+                bstobj.delete(bobj);
+            default:
+                break;
+            }
+        }
+    }
 }
