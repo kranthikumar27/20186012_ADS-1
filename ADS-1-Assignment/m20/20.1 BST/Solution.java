@@ -522,12 +522,14 @@ public final class Solution {
                 break;
             case "floor":
                 bobj = new BookDetails(tokens[1],
-                                       tokens[2], Float.parseFloat(tokens[2 + 1]));
+                                       tokens[2],
+                                        Float.parseFloat(tokens[2 + 1]));
                 System.out.println(bstobj.floor(bobj));
                 break;
             case "ceiling":
                 bobj = new BookDetails(tokens[1],
-                                       tokens[2], Float.parseFloat(tokens[2 +1]));
+                                       tokens[2],
+                                        Float.parseFloat(tokens[2 + 1]));
                 System.out.println(bstobj.ceiling(bobj));
                 break;
             case "deleteMax":
@@ -538,7 +540,8 @@ public final class Solution {
                 break;
             case "delete":
                 bobj = new BookDetails(tokens[1],
-                                       tokens[2], Float.parseFloat(tokens[2 + 1]));
+                                       tokens[2],
+                                        Float.parseFloat(tokens[2 + 1]));
                 bstobj.delete(bobj);
             default:
                 break;
