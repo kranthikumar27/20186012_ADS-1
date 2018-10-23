@@ -1,4 +1,7 @@
 import java.util.Scanner;
+/**
+ * Class for book details.
+ */
 class BookDetails implements Comparable {
     /**
      * variable declaration name  .
@@ -295,7 +298,7 @@ class BinarySearchTree {
             return x.key;
         }
     }
-    /**
+    /**.
      * overloaded constructor.
      * time complexity is O(logN)
      * @param      x Node
@@ -333,7 +336,7 @@ class BinarySearchTree {
         return x.key;
     }
     /**
-     * {Select method}
+     * {Select method}.
      * Time complexity of this method is O(log(N)).
      * @param      x     {Node}
      * @param      k     {Integer}
@@ -411,7 +414,7 @@ class BinarySearchTree {
     public void deleteMax() {
         root = deleteMax(root);
     }
-    /**
+    /**.
      * overloaded constructor of delete maximum method.
      *
      * @param      x  The Node.
@@ -426,7 +429,7 @@ class BinarySearchTree {
         x.size = size(x.left) + size(x.right) + 1;
         return x;
     }
-    /**
+    /**.
      * delete node.
      *
      * @param      key   The key
@@ -434,7 +437,7 @@ class BinarySearchTree {
     public void delete(final BookDetails key) {
         root = delete(root, key);
     }
-    /**
+    /**.
      * overloaded constructor of delete.
      *
      * @param      x  Node
@@ -469,10 +472,21 @@ class BinarySearchTree {
         return x1;
     }
 }
-class Solution {
-	Solution() {
+/**.
+ * Client Solution.
+ */
+public final class Solution {
+	/**.
+	 * Constructs the object.
+	 */
+	private Solution() {
 
 	}
+	/**.
+	 * main method.
+	 *
+	 * @param      args  The arguments
+	 */
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		BinarySearchTree bstobj = new BinarySearchTree();
