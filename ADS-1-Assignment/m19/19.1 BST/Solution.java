@@ -416,8 +416,7 @@ public final class Solution {
             switch (tokens[0]) {
             case "put":
                 BookDetails bobj = new BookDetails(tokens[1],
-                                                   tokens[2],
-                                                   Float.parseFloat(tokens[2 +1]));
+                 tokens[2], Float.parseFloat(tokens[2 + 1]));
                 bstobj.put(bobj, Integer.parseInt(tokens[2 + 2]));
                 break;
             case "get":

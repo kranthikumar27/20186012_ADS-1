@@ -1,5 +1,2 @@
 Starting audit...
-[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m19\19.1 BST\Solution.java:420: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m19\19.1 BST\Solution.java:420:79: '+' is not followed by whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 2 errors.
