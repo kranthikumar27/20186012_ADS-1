@@ -1,10 +1,5 @@
 Starting audit...
-[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m19\19.1 BST\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m19\19.1 BST\Solution.java:416: switch without "default" clause. [MissingSwitchDefault]
-[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m19\19.1 BST\Solution.java:420:65: '3' is a magic number. [MagicNumber]
-[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m19\19.1 BST\Solution.java:421:58: '4' is a magic number. [MagicNumber]
-[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m19\19.1 BST\Solution.java:425:65: '3' is a magic number. [MagicNumber]
-[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m19\19.1 BST\Solution.java:444:65: '3' is a magic number. [MagicNumber]
-[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m19\19.1 BST\Solution.java:450:65: '3' is a magic number. [MagicNumber]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m19\19.1 BST\Solution.java:420: Line is longer than 80 characters (found 83). [LineLength]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m19\19.1 BST\Solution.java:420:79: '+' is not followed by whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 7 errors.
+Checkstyle ends with 2 errors.

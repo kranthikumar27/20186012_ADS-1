@@ -416,13 +416,13 @@ public final class Solution {
             switch (tokens[0]) {
             case "put":
                 BookDetails bobj = new BookDetails(tokens[1],
-                                                    tokens[2],
-                                        Float.parseFloat(tokens[3]));
-                bstobj.put(bobj, Integer.parseInt(tokens[4]));
+                                                   tokens[2],
+                                                   Float.parseFloat(tokens[2 +1]));
+                bstobj.put(bobj, Integer.parseInt(tokens[2 + 2]));
                 break;
             case "get":
                 bobj = new BookDetails(tokens[1], tokens[2],
-                                        Float.parseFloat(tokens[3]));
+                                       Float.parseFloat(tokens[2 + 1]));
                 if (bstobj.get(bobj) == -1) {
                     System.out.println("null");
                 } else {
@@ -440,15 +440,17 @@ public final class Solution {
                 break;
             case "floor":
                 bobj = new BookDetails(tokens[1],
-                                        tokens[2],
-                                        Float.parseFloat(tokens[3]));
+                                       tokens[2],
+                                       Float.parseFloat(tokens[2 + 1]));
                 System.out.println(bstobj.floor(bobj));
                 break;
             case "ceiling":
                 bobj = new BookDetails(tokens[1],
-                                        tokens[2],
-                                        Float.parseFloat(tokens[3]));
+                                       tokens[2],
+                                       Float.parseFloat(tokens[2 + 1]));
                 System.out.println(bstobj.ceiling(bobj));
+                break;
+            default:
                 break;
             }
         }
