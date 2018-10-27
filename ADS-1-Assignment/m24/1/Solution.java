@@ -1,31 +1,4 @@
 import java.util.Scanner;
-// /*/**
-//  * Class for student.
-//  */
-// class Student {
-// 	private int roll_number;
-// 	private String name;
-// 	private double totalMarks;
-// 	/**
-// 	 * Constructs the object.
-// 	 */
-// 	student() {
-
-// 	}
-// 	/**
-// 	 * Constructs the object.
-// 	 *
-// 	 * @param      roll_num    The roll number
-// 	 * @param      namee       The namee
-// 	 * @param      totalmarks  The totalmarks
-// 	 */
-// 	Student(final int roll_num, final String namee, final double totalmarks) {
-// 		this.roll_number = roll_num;
-// 		this.name = namee;
-// 		this.totalMarks = totalmarks;
-// 	}
-
-// }
 // /**
 //  * Class for solution.
 //  */
@@ -49,6 +22,7 @@ class Solution {
 		for (int i = 0; i < inputs; i++) {
 			String[] tokens = scan.nextLine().split(",");
 			String str = tokens[1] + "," + tokens[2];
+			obj.put(Integer.parseInt(tokens[0]), str);
 		}
 		int values = Integer.parseInt(scan.nextLine());
 		for (int j = 0; j < values; j++) {
