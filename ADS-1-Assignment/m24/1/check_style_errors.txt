@@ -1,0 +1,9 @@
+Starting audit...
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m24\1\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m24\1\Solution.java:6:4: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m24\1\Solution.java:22: Line is longer than 80 characters (found 82). [LineLength]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m24\1\Solution.java:32: Missing a Javadoc comment. [JavadocType]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m24\1\Solution.java:32:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m24\1\Solution.java:44:33: Parameter args should be final. [FinalParameters]
+Audit done.
+Checkstyle ends with 6 errors.
