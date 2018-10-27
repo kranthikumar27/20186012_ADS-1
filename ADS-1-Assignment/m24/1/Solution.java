@@ -1,12 +1,12 @@
 import java.util.Scanner;
-// /**
-//  * Class for solution.
-//  */
+/**
+ * Class for solution.
+ */
 class Solution {
 	/**
 	 * Constructs the object.
 	 */
-	Solution() {
+	private Solution() {
 
 	}
 	/**
@@ -14,7 +14,7 @@ class Solution {
 	 *
 	 * @param      args  The arguments
 	 */
-	public static void main(String[] args) {
+	public static void main(final String[] args) {
 		LinearProbingHashST<Integer, String> obj =
 		    new LinearProbingHashST<Integer, String>();
 		Scanner scan = new Scanner(System.in);
