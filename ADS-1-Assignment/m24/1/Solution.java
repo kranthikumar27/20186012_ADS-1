@@ -32,6 +32,8 @@ class Solution {
 				String[] tokens2 = str1.split(",");
 				if (Integer.parseInt(tokens1[2]) == 1) {
 					System.out.println(tokens2[0]);
+				} else {
+					System.out.println(Double.parseDouble(tokens2[1]));
 				}
 			}
 		}
