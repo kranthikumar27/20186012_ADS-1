@@ -105,6 +105,7 @@ public final class Solution {
         // find smallest sum, print it out, and update
         while (!pq.isEmpty()) {
             CubeSum s = pq.delMin();
+            //System.out.println(s.getSum()+" "+temp);
             if (temp == s.getSum()) {
                 count++;
             } else {
@@ -123,4 +124,5 @@ public final class Solution {
             }
         }
     }
+
 }

@@ -1,2 +1,4 @@
 Starting audit...
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\m17\TaxiCabNumbers\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
+Checkstyle ends with 1 errors.
