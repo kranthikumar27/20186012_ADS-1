@@ -40,9 +40,9 @@ class Student implements Comparable<Student> {
 			return -1;			
 			}
 			else if (this.roll > other.roll) {
-				return 1;
-			} else if (this.roll < other.roll) {
 				return -1;
+			} else if (this.roll < other.roll) {
+				return 1;
 			}
 	// 			if (this.name.compareTo(other.name) > 0) {
 	// 				return 1;
