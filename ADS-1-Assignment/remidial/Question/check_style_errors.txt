@@ -101,11 +101,13 @@ Starting audit...
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\remidial\Question\Solution.java:19:137: '3' is a magic number. [MagicNumber]
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\remidial\Question\Solution.java:28:57: ';' is preceded with whitespace. [NoWhitespaceBefore]
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\remidial\Question\Solution.java:28:63: ')' is preceded with whitespace. [ParenPad]
-[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\remidial\Question\Solution.java:29: Line is longer than 80 characters (found 84). [LineLength]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\remidial\Question\Solution.java:29: Line is longer than 80 characters (found 88). [LineLength]
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\remidial\Question\Solution.java:29:63: '+' is not followed by whitespace. [WhitespaceAround]
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\remidial\Question\Solution.java:29:66: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\remidial\Question\Solution.java:29:67: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\remidial\Question\Solution.java:29:70: '+' is not preceded with whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 17 errors.
+Checkstyle ends with 19 errors.
 Starting audit...
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\remidial\Question\Student.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-Assignment\remidial\Question\Student.java:1: Missing a Javadoc comment. [JavadocType]
