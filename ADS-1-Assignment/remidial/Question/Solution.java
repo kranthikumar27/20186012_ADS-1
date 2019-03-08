@@ -26,7 +26,7 @@ class Solution {
 				System.out.println();
 				int size = maxobj.size();
 				for (int i = 0; i < size ; i++ ) {
-					System.out.println(i +":"+" "+ maxobj.delMax());
+					System.out.println(i+1 +":"+" "+ maxobj.delMax());
 				}
 				break;
 			}
