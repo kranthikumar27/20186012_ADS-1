@@ -25,7 +25,7 @@ class Solution {
 				case "Ranking":
 				System.out.println();
 				int size = maxobj.size();
-				for (int i = 1; i < size ; i++ ) {
+				for (int i = 0; i < size ; i++ ) {
 					System.out.println(i +":"+" "+ maxobj.delMax());
 				}
 				break;
