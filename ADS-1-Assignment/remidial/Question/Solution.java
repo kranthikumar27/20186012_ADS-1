@@ -20,7 +20,6 @@ class Solution {
 				maxobj.insert(student);
 				break;
 				case "Recruit_Top_Candidate":
-				System.out.println();
 				System.out.println(maxobj.delMax());
 				break;
 				case "Ranking":
