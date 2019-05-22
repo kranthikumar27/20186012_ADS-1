@@ -7,7 +7,7 @@ class Solution {
 		Scanner sc = new Scanner(System.in);
 		Student student;
 		MaxPQ<Student> maxobj = new MaxPQ<>();
-		int n = Integer.parseInt(sc.nextLine());
+		// int n = Integer.parseInt(sc.nextLine());
 		while (sc.hasNext()) {
 			String[] tokens = sc.nextLine().split(" ");
 			// System.out.println(Arrays.toString(tokens));
@@ -33,3 +33,9 @@ class Solution {
 		}
 	}
 }
+
+
+// I used MaxPQ 
+// complexity of insert-log(n)
+// complexity of delMax - log(n)
+// complexity of total solution - Nlog(n)
