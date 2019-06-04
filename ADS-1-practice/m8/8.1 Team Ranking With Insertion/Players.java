@@ -70,7 +70,7 @@ class Players implements Comparable<Players> {
 
 
 	public void sort() {
-		Insertion.sort(ply);
+		Insertion.sort(ply,size);
 	}
 
 	// private boolean less(Comparable v, Comparable w) {

@@ -4,6 +4,9 @@ Starting audit...
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-practice\m8\8.1 Team Ranking With Insertion\Insertion.java:24: Class Insertion should be declared as final. [FinalClass]
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-practice\m8\8.1 Team Ranking With Insertion\Insertion.java:27:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-practice\m8\8.1 Team Ranking With Insertion\Insertion.java:33:29: Parameter a should be final. [FinalParameters]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-practice\m8\8.1 Team Ranking With Insertion\Insertion.java:33:44: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-practice\m8\8.1 Team Ranking With Insertion\Insertion.java:33:44: Parameter size should be final. [FinalParameters]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-practice\m8\8.1 Team Ranking With Insertion\Insertion.java:33:48: Expected @param tag for 'size'. [JavadocMethod]
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-practice\m8\8.1 Team Ranking With Insertion\Insertion.java:36:52: '-' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-practice\m8\8.1 Team Ranking With Insertion\Insertion.java:36:53: '-' is not followed by whitespace. [WhitespaceAround]
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-practice\m8\8.1 Team Ranking With Insertion\Insertion.java:37:29: '-' is not preceded with whitespace. [WhitespaceAround]
@@ -84,7 +87,7 @@ Starting audit...
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-practice\m8\8.1 Team Ranking With Insertion\Insertion.java:162:31: '-' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-practice\m8\8.1 Team Ranking With Insertion\Insertion.java:162:32: '-' is not followed by whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 84 errors.
+Checkstyle ends with 87 errors.
 Starting audit...
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-practice\m8\8.1 Team Ranking With Insertion\Players.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-practice\m8\8.1 Team Ranking With Insertion\Players.java:1: Using the '.*' form of import should be avoided - java.util.*. [AvoidStarImport]
@@ -118,6 +121,7 @@ Starting audit...
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-practice\m8\8.1 Team Ranking With Insertion\Players.java:60:25: Parameter teamNames1 should be final. [FinalParameters]
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-practice\m8\8.1 Team Ranking With Insertion\Players.java:67:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-practice\m8\8.1 Team Ranking With Insertion\Players.java:72:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-practice\m8\8.1 Team Ranking With Insertion\Players.java:73:36: ',' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-practice\m8\8.1 Team Ranking With Insertion\Players.java:80:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-practice\m8\8.1 Team Ranking With Insertion\Players.java:80:27: Parameter a should be final. [FinalParameters]
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-practice\m8\8.1 Team Ranking With Insertion\Players.java:80:39: Parameter i should be final. [FinalParameters]
@@ -130,7 +134,7 @@ Starting audit...
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-practice\m8\8.1 Team Ranking With Insertion\Players.java:89:35: '-' is not followed by whitespace. [WhitespaceAround]
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-practice\m8\8.1 Team Ranking With Insertion\Players.java:89:36: ';' is preceded with whitespace. [NoWhitespaceBefore]
 Audit done.
-Checkstyle ends with 43 errors.
+Checkstyle ends with 44 errors.
 Starting audit...
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-practice\m8\8.1 Team Ranking With Insertion\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] F:\msit\Git\20186012_ADS-1\ADS-1-practice\m8\8.1 Team Ranking With Insertion\Solution.java:1: Using the '.*' form of import should be avoided - java.util.*. [AvoidStarImport]
