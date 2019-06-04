@@ -42,9 +42,9 @@ class Players implements Comparable<Players> {
 			return -1;
 		} else {
 			if (this.losses > that.losses) {
-				return 1;
-			} else if (this.losses < that.losses) {
 				return -1;
+			} else if (this.losses < that.losses) {
+				return 1;
 			} else {
 				if (this.draws > that.draws) {
 					return 1;
